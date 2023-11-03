@@ -10,6 +10,7 @@
 		DA80E9162AF4D3660009D5B9 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80E9152AF4D3660009D5B9 /* Destination.swift */; };
 		DA80E9182AF4DEB30009D5B9 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80E9172AF4DEB30009D5B9 /* EditDestinationView.swift */; };
 		DA80E91A2AF4E67C0009D5B9 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80E9192AF4E67C0009D5B9 /* DestinationListingView.swift */; };
+		DA80E91C2AF51A500009D5B9 /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80E91B2AF51A500009D5B9 /* Sight.swift */; };
 		DA83B1FE2AF382D800787F36 /* TravelListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83B1FD2AF382D800787F36 /* TravelListApp.swift */; };
 		DA83B2002AF382D800787F36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83B1FF2AF382D800787F36 /* ContentView.swift */; };
 		DA83B2022AF382DB00787F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA83B2012AF382DB00787F36 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		DA80E9152AF4D3660009D5B9 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		DA80E9172AF4DEB30009D5B9 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 		DA80E9192AF4E67C0009D5B9 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		DA80E91B2AF51A500009D5B9 /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 		DA83B1FA2AF382D800787F36 /* TravelList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA83B1FD2AF382D800787F36 /* TravelListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelListApp.swift; sourceTree = "<group>"; };
 		DA83B1FF2AF382D800787F36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA80E91D2AF51BFA0009D5B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA80E91B2AF51A500009D5B9 /* Sight.swift */,
+				DA80E9152AF4D3660009D5B9 /* Destination.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DA83B1F12AF382D800787F36 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +68,7 @@
 		DA83B1FC2AF382D800787F36 /* TravelList */ = {
 			isa = PBXGroup;
 			children = (
-				DA80E9152AF4D3660009D5B9 /* Destination.swift */,
+				DA80E91D2AF51BFA0009D5B9 /* Model */,
 				DA83B1FD2AF382D800787F36 /* TravelListApp.swift */,
 				DA83B1FF2AF382D800787F36 /* ContentView.swift */,
 				DA80E9192AF4E67C0009D5B9 /* DestinationListingView.swift */,
@@ -149,6 +160,7 @@
 				DA83B2002AF382D800787F36 /* ContentView.swift in Sources */,
 				DA83B1FE2AF382D800787F36 /* TravelListApp.swift in Sources */,
 				DA80E9162AF4D3660009D5B9 /* Destination.swift in Sources */,
+				DA80E91C2AF51A500009D5B9 /* Sight.swift in Sources */,
 				DA80E9182AF4DEB30009D5B9 /* EditDestinationView.swift in Sources */,
 				DA80E91A2AF4E67C0009D5B9 /* DestinationListingView.swift in Sources */,
 			);
