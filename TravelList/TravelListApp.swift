@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct TravelListApp: App {
@@ -13,5 +14,6 @@ struct TravelListApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Destination.self)
     }
 }
